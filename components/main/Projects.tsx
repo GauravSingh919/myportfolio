@@ -22,13 +22,13 @@ const Projects = () => {
           src="/RonyIphone.png"
           title="Rony Buys iPhone"
           description="Sell Your Device In Few Clicks"
-          url="https://www.cinepolisindia.com"
+          url="https://ronybuysiphone.com/"
         />
         <ProjectCard
           src="/enpointe.png"
           title="Enpointe Website"
           description="Empower your business with our innovative cloud and digital technology services. Achieve new heights through scalable solutions, seamless integration, and expert guidance."
-          url="https://www.cinepolisindia.com"
+          url="https://enpointe.io"
         />
       </div>
     </div>
