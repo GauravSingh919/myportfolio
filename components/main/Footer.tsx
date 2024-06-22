@@ -12,18 +12,6 @@ import { FaLinkedin, FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-      <div className="w-full absolute hidden md:block">
-        <div className="w-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover">
-          <video
-            className="w-full"
-            preload="false"
-            playsInline
-            loop
-            autoPlay
-            src="/cards-video.webm"
-          />
-        </div>
-      </div>
       <div className="w-full h-full bg-transparent text-gray-200  p-[15px] pt-20 md:py-20 z-[30] relative ">
         <div className="w-full flex flex-col items-center justify-center m-auto">
           <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
@@ -73,13 +61,14 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="w-full absolute block md:hidden">
-        <div className="w-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover">
+      <div className="w-full absolute">
+        <div className="w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover">
           <video
-            className="w-full"
+            className="w-full h-auto"
             preload="false"
             playsInline
             loop
+            muted
             autoPlay
             src="/cards-video.webm"
           />
