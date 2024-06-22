@@ -19,9 +19,9 @@ const Projects = () => {
           url="https://www.cinepolisindia.com"
         />
         <ProjectCard
-          src="/cinepolis.png"
-          title="cinepolis"
-          description="Experience the latest blockbuster movies at Cinépolis India, your go-to cinema for newly released films and the best of Bollywood, Hollywood and regional movies."
+          src="/RonyIphone.png"
+          title="Rony Buys iPhone"
+          description="Sell Your Device In Few Clicks"
           url="https://www.cinepolisindia.com"
         />
         <ProjectCard
