@@ -26,7 +26,7 @@ const Footer = () => {
       </div>
       <div className="w-full h-full bg-transparent text-gray-200  p-[15px] pt-20 md:py-20 z-[30] relative ">
         <div className="w-full flex flex-col items-center justify-center m-auto">
-          <div className="w-full h-full flex flex-row items-center justify-center md:justify-between flex-wrap">
+          <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
             <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
               <div className="font-bold text-[16px]">Social Media</div>
               <p className="flex flex-row items-center my-[15px] cursor-pointer">
