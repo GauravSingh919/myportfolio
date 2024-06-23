@@ -8,6 +8,7 @@ import {
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
+import MagicButton from "./MagicButton";
 const HeroContent = () => {
   return (
     <motion.div
@@ -18,7 +19,7 @@ const HeroContent = () => {
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
           variants={slideInFromTop}
-          className="Welcome-box py-[8px] px-[4px] border border-[#7024f88b] opacity-[0.9] "
+          className="Welcome-box py-[8px] px-3 border border-[#7024f88b] opacity-[0.9] "
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]"> FullStack Web Developer</h1>
@@ -46,16 +47,18 @@ const HeroContent = () => {
           my projects and skills am working on
         </motion.p>
 
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-        >
-          Learn More
+        <motion.a variants={slideInFromLeft(1)} className="">
+          <MagicButton
+            title="Download Resume"
+            icon={""}
+            position=""
+            otherClasses=""
+          />
         </motion.a>
       </div>
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center"
+        className="w-full h-full sm:flex justify-center items-center hidden "
       >
         <Image
           src="/mainIconsdark.svg"
