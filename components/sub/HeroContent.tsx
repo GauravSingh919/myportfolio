@@ -9,6 +9,7 @@ import {
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import MagicButton from "./MagicButton";
+import HoverCard from "../HoverCard";
 const HeroContent = () => {
   return (
     <motion.div
@@ -43,8 +44,9 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-500 my-5 max-w-[600px]"
         >
-          I &apos; am Full Stack Web Developer working on Live Website Check out
-          my projects and skills am working on
+          Hey , myself Gaurav Singh working as a Full Stack Web Developer <br />
+          My Works is basically Live Website Check out my projects and skills am
+          working on
         </motion.p>
 
         <motion.a variants={slideInFromLeft(1)} className="">
@@ -56,6 +58,7 @@ const HeroContent = () => {
           />
         </motion.a>
       </div>
+
       <motion.div
         variants={slideInFromRight(0.8)}
         className="w-full h-full sm:flex justify-center items-center hidden "

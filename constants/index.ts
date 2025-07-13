@@ -42,6 +42,12 @@ export const Skill_data = [
       height: 80,
     },
     {
+      skill_name: "Vue Js",
+      Image: "/vue.png",
+      width: 80,
+      height: 80,
+    },
+    {
       skill_name: "Next js",
       Image: "/next.png",
       width: 80,
@@ -125,6 +131,12 @@ export const Skill_data = [
     {
       skill_name: "Type Script",
       Image: "/ts.png",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "Vue Js",
+      Image: "/vue.png",
       width: 80,
       height: 80,
     },
