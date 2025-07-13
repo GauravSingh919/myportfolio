@@ -7,10 +7,10 @@ const HoverCard = () => {
         <img src="/astronaut-WTFWARES.png" alt="" className="image" />
         <div className="heading">Social Media</div>
 
-        <div className="grid grid-cols-5 gap-x-20">
+        <div className="grid grid-cols-3 gap-x-20">
           <div>
             <a
-              href="https://www.instagram.com/uiverse.io/"
+              href="https://www.instagram.com/_gauravsingh_x/"
               className="instagram"
             >
               <svg
@@ -31,7 +31,7 @@ const HoverCard = () => {
             </a>
           </div>
           <div>
-            <a href="https://www.linkedin.com/" className="linkedin">
+            <a href="https://www.linkedin.com/in/gauravsingh138/" className="linkedin">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.5h4V24h-4V8.5zm7.5 0h3.79v2.13h.05c.53-.93 1.83-1.9 3.76-1.9 4.03 0 4.78 2.65 4.78 6.1V24h-4v-7.5c0-1.79-.03-4.1-2.5-4.1s-2.88 1.95-2.88 4v7.6H8V8.5z"  stroke="currentColor"
                   stroke-width="2"
@@ -49,8 +49,8 @@ const HoverCard = () => {
             </a>
 
           </div>
-          <div>
-            <a href="https://twitter.com/uiverse_io" className="x">
+          {/* <div>
+            <a href="#" className="x">
               <svg
                 width="24"
                 height="24"
@@ -67,8 +67,8 @@ const HoverCard = () => {
                 ></path>
               </svg>
             </a>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <a href="https://discord.gg/KD8ba2uUpT" className="discord">
               <svg
                 width="25"
@@ -86,7 +86,7 @@ const HoverCard = () => {
                 ></path>
               </svg>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

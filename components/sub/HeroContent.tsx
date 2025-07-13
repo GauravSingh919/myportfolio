@@ -55,6 +55,14 @@ const HeroContent = () => {
             icon={""}
             position=""
             otherClasses=""
+            handleClick={() => {
+              const link = document.createElement("a");
+              link.href = "/GauravSinghResume.pdf";
+              link.download = "GauravSinghResume.pdf";
+              document.body.appendChild(link);
+              link.click();
+              document.body.removeChild(link);
+            }}
           />
         </motion.a>
       </div>
