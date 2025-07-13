@@ -22,7 +22,7 @@ const Projects = () => {
           src="/NovoCinemas.png"
           title="Novo Cinemas"
           description="Novo Cinemas is proud to be the largest and most visited chain of theatres in the Middle East."
-          url="https://ronybuysiphone.com/"
+          url="https://novocinemas.com"
         />
         <ProjectCard
           src="/enpointe.png"
